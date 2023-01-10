@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: system-ui;
+  font-family: "Inter", system-ui;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #e7f6ff;
@@ -12,7 +12,8 @@ body {
   max-width: 1080px;
   margin: 50px auto; 
 }
-header {   
+header {
+  border-bottom: 1px solid #eaeaea;   
   img {
     margin-right: 15px;
   }
@@ -20,5 +21,41 @@ header {
     margin: 0;
   }  
 }
+.content {
+  h1 {
+    margin: 0;
+  }
+}
+.card { 
+  border: 1px solid #F3F3F3;
+  padding: 20px;
+  width: 210px;
+  border-radius: 40px;
+  margin-right: 30px;
+  b {
+    font-size: 14px;
+  }
+  span {
+    font-size: 11px;
+    opacity: 0.5;
+    text-transform: uppercase;
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+  }  
+}
+
+.button {
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+
 
 
